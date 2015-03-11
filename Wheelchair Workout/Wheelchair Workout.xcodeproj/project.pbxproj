@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE0196C51AAFEAE10001D945 /* 9PZKBQXJ9I.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE0196C41AAFEAE10001D945 /* 9PZKBQXJ9I.jpg */; };
+		CE0F17CA1AA2B12100757948 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE0F17C91AA2B12100757948 /* Settings.bundle */; };
+		CE0F17CC1AA3C8AD00757948 /* ResponsiveTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0F17CB1AA3C8AD00757948 /* ResponsiveTextFieldViewController.swift */; };
+		CE629A2C1AAD53F10045810D /* calorieCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE629A2B1AAD53F10045810D /* calorieCalculator.swift */; };
+		CEC631471AA7ABB600D25FDD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC631461AA7ABB600D25FDD /* CoreLocation.framework */; };
+		CEC631491AA7ED1E00D25FDD /* DistanceLoggerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC631481AA7ED1E00D25FDD /* DistanceLoggerViewController.swift */; };
+		CECA26721AA1530B008CF14B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA26711AA1530B008CF14B /* AppDelegate.swift */; };
+		CECA26741AA1530B008CF14B /* TitleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA26731AA1530B008CF14B /* TitleVC.swift */; };
+		CECA26771AA1530B008CF14B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECA26751AA1530B008CF14B /* Main.storyboard */; };
+		CECA26791AA1530B008CF14B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECA26781AA1530B008CF14B /* Images.xcassets */; };
+		CECA267C1AA1530B008CF14B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECA267A1AA1530B008CF14B /* LaunchScreen.xib */; };
+		CECA26881AA1530B008CF14B /* Wheelchair_WorkoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA26871AA1530B008CF14B /* Wheelchair_WorkoutTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CECA26821AA1530B008CF14B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECA26641AA1530B008CF14B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECA266B1AA1530B008CF14B;
+			remoteInfo = "Wheelchair Workout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE0196C41AAFEAE10001D945 /* 9PZKBQXJ9I.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9PZKBQXJ9I.jpg; sourceTree = "<group>"; };
+		CE0F17C91AA2B12100757948 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		CE0F17CB1AA3C8AD00757948 /* ResponsiveTextFieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponsiveTextFieldViewController.swift; sourceTree = "<group>"; };
+		CE629A2B1AAD53F10045810D /* calorieCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calorieCalculator.swift; sourceTree = "<group>"; };
+		CEC631461AA7ABB600D25FDD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CEC631481AA7ED1E00D25FDD /* DistanceLoggerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistanceLoggerViewController.swift; sourceTree = "<group>"; };
+		CECA266C1AA1530B008CF14B /* Wheelchair Workout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wheelchair Workout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECA26701AA1530B008CF14B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECA26711AA1530B008CF14B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CECA26731AA1530B008CF14B /* TitleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleVC.swift; sourceTree = "<group>"; };
+		CECA26761AA1530B008CF14B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CECA26781AA1530B008CF14B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CECA267B1AA1530B008CF14B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CECA26811AA1530B008CF14B /* Wheelchair WorkoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wheelchair WorkoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECA26861AA1530B008CF14B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECA26871AA1530B008CF14B /* Wheelchair_WorkoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wheelchair_WorkoutTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECA26691AA1530B008CF14B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC631471AA7ABB600D25FDD /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECA267E1AA1530B008CF14B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CECA26631AA1530B008CF14B = {
+			isa = PBXGroup;
+			children = (
+				CE629A2B1AAD53F10045810D /* calorieCalculator.swift */,
+				CEC631461AA7ABB600D25FDD /* CoreLocation.framework */,
+				CECA266E1AA1530B008CF14B /* Wheelchair Workout */,
+				CECA26841AA1530B008CF14B /* Wheelchair WorkoutTests */,
+				CECA266D1AA1530B008CF14B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CECA266D1AA1530B008CF14B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECA266C1AA1530B008CF14B /* Wheelchair Workout.app */,
+				CECA26811AA1530B008CF14B /* Wheelchair WorkoutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECA266E1AA1530B008CF14B /* Wheelchair Workout */ = {
+			isa = PBXGroup;
+			children = (
+				CECA26711AA1530B008CF14B /* AppDelegate.swift */,
+				CE0F17C91AA2B12100757948 /* Settings.bundle */,
+				CECA26751AA1530B008CF14B /* Main.storyboard */,
+				CEC631481AA7ED1E00D25FDD /* DistanceLoggerViewController.swift */,
+				CECA26731AA1530B008CF14B /* TitleVC.swift */,
+				CECA26781AA1530B008CF14B /* Images.xcassets */,
+				CECA267A1AA1530B008CF14B /* LaunchScreen.xib */,
+				CECA266F1AA1530B008CF14B /* Supporting Files */,
+			);
+			path = "Wheelchair Workout";
+			sourceTree = "<group>";
+		};
+		CECA266F1AA1530B008CF14B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE0196C41AAFEAE10001D945 /* 9PZKBQXJ9I.jpg */,
+				CE0F17CB1AA3C8AD00757948 /* ResponsiveTextFieldViewController.swift */,
+				CECA26701AA1530B008CF14B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CECA26841AA1530B008CF14B /* Wheelchair WorkoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				CECA26871AA1530B008CF14B /* Wheelchair_WorkoutTests.swift */,
+				CECA26851AA1530B008CF14B /* Supporting Files */,
+			);
+			path = "Wheelchair WorkoutTests";
+			sourceTree = "<group>";
+		};
+		CECA26851AA1530B008CF14B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CECA26861AA1530B008CF14B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECA266B1AA1530B008CF14B /* Wheelchair Workout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECA268B1AA1530B008CF14B /* Build configuration list for PBXNativeTarget "Wheelchair Workout" */;
+			buildPhases = (
+				CECA26681AA1530B008CF14B /* Sources */,
+				CECA26691AA1530B008CF14B /* Frameworks */,
+				CECA266A1AA1530B008CF14B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wheelchair Workout";
+			productName = "Wheelchair Workout";
+			productReference = CECA266C1AA1530B008CF14B /* Wheelchair Workout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CECA26801AA1530B008CF14B /* Wheelchair WorkoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECA268E1AA1530B008CF14B /* Build configuration list for PBXNativeTarget "Wheelchair WorkoutTests" */;
+			buildPhases = (
+				CECA267D1AA1530B008CF14B /* Sources */,
+				CECA267E1AA1530B008CF14B /* Frameworks */,
+				CECA267F1AA1530B008CF14B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECA26831AA1530B008CF14B /* PBXTargetDependency */,
+			);
+			name = "Wheelchair WorkoutTests";
+			productName = "Wheelchair WorkoutTests";
+			productReference = CECA26811AA1530B008CF14B /* Wheelchair WorkoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECA26641AA1530B008CF14B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Craig_Chaillie;
+				TargetAttributes = {
+					CECA266B1AA1530B008CF14B = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = WHUH8MR63N;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					CECA26801AA1530B008CF14B = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CECA266B1AA1530B008CF14B;
+					};
+				};
+			};
+			buildConfigurationList = CECA26671AA1530B008CF14B /* Build configuration list for PBXProject "Wheelchair Workout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECA26631AA1530B008CF14B;
+			productRefGroup = CECA266D1AA1530B008CF14B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECA266B1AA1530B008CF14B /* Wheelchair Workout */,
+				CECA26801AA1530B008CF14B /* Wheelchair WorkoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECA266A1AA1530B008CF14B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0F17CA1AA2B12100757948 /* Settings.bundle in Resources */,
+				CECA26771AA1530B008CF14B /* Main.storyboard in Resources */,
+				CECA267C1AA1530B008CF14B /* LaunchScreen.xib in Resources */,
+				CE0196C51AAFEAE10001D945 /* 9PZKBQXJ9I.jpg in Resources */,
+				CECA26791AA1530B008CF14B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECA267F1AA1530B008CF14B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECA26681AA1530B008CF14B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0F17CC1AA3C8AD00757948 /* ResponsiveTextFieldViewController.swift in Sources */,
+				CECA26741AA1530B008CF14B /* TitleVC.swift in Sources */,
+				CEC631491AA7ED1E00D25FDD /* DistanceLoggerViewController.swift in Sources */,
+				CECA26721AA1530B008CF14B /* AppDelegate.swift in Sources */,
+				CE629A2C1AAD53F10045810D /* calorieCalculator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECA267D1AA1530B008CF14B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECA26881AA1530B008CF14B /* Wheelchair_WorkoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CECA26831AA1530B008CF14B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECA266B1AA1530B008CF14B /* Wheelchair Workout */;
+			targetProxy = CECA26821AA1530B008CF14B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CECA26751AA1530B008CF14B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECA26761AA1530B008CF14B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CECA267A1AA1530B008CF14B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECA267B1AA1530B008CF14B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CECA26891AA1530B008CF14B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CECA268A1AA1530B008CF14B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECA268C1AA1530B008CF14B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Wheelchair Workout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		CECA268D1AA1530B008CF14B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Wheelchair Workout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		CECA268F1AA1530B008CF14B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Wheelchair WorkoutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wheelchair Workout.app/Wheelchair Workout";
+			};
+			name = Debug;
+		};
+		CECA26901AA1530B008CF14B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Wheelchair WorkoutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wheelchair Workout.app/Wheelchair Workout";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECA26671AA1530B008CF14B /* Build configuration list for PBXProject "Wheelchair Workout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECA26891AA1530B008CF14B /* Debug */,
+				CECA268A1AA1530B008CF14B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECA268B1AA1530B008CF14B /* Build configuration list for PBXNativeTarget "Wheelchair Workout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECA268C1AA1530B008CF14B /* Debug */,
+				CECA268D1AA1530B008CF14B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECA268E1AA1530B008CF14B /* Build configuration list for PBXNativeTarget "Wheelchair WorkoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECA268F1AA1530B008CF14B /* Debug */,
+				CECA26901AA1530B008CF14B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECA26641AA1530B008CF14B /* Project object */;
+}
